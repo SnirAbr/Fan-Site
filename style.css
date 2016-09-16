@@ -14,6 +14,43 @@ a{
     color: blue;
 }
 
+img{
+     margin: 50px 80px;
+}
+
+.centerTable { 
+    margin: 0px auto; 
+}
+
+.imgWrap {
+  position: relative;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black;
+
+
+  visibility: hidden;
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+}
+
+.vidSize3{
+    opacity: 1;
+}
+
+.vidSize3 video{
+    width: 450px;
+    height: 300px;
+}
+
 a:hover{
     color: mediumpurple;
 }
