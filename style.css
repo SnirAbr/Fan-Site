@@ -20,17 +20,21 @@ a{
 
 img{
      margin: 50px 80px;
+     border-style: inset;
+     border-width: 7px;
+     border-color: #00BFFF;
+     border-radius: 7px;
 }
 
 .centerTable { 
     margin: 0px auto; 
 }
 
-.imgWrap {
+.attachText {
   position: relative;
 }
 
-.imgDescription {
+.Description {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -42,7 +46,7 @@ img{
   visibility: hidden;
 }
 
-.imgWrap:hover .imgDescription {
+.attachText:hover .Description {
   visibility: visible;
 }
 
@@ -63,3 +67,6 @@ body{
     background-color: #3BA3E8;
 }
 
+#info{
+    background-color: white;
+}
